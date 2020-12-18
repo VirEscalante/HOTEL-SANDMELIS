@@ -1,0 +1,431 @@
+.opcBarraSup{
+    display: flex;
+       
+}
+
+.checkin{
+    margin-left: auto;
+    font-weight: bold;
+    
+}
+
+.idioma{
+    border: none;
+}
+
+#space-between {
+    justify-content: space-between;
+  }
+
+.navbar .navbar-brand {
+    color: violet;
+    font-size: 16px;   
+    font-family: "Open Sans";
+}
+
+.dinero{
+    border: none;
+    background-color: white;
+}
+
+.bandera{
+    border: none;
+    background-color: white;
+}
+.logo {
+    max-width: 145px;;
+}
+
+.barraMedia .inicio{
+    font-size: 13px;
+}
+.ingreso .egreso{
+    font-size: 13px;
+    width: 143px;
+    height: 60px;
+}
+.barraMedia{
+    display: flex;
+    list-style: none;
+    height: 60px;
+    background-color: #f2f2f2
+}
+.barraMedia li{
+    margin: auto;
+    border: gray;
+    font-size: 13px;
+}
+.barraMedia .botonFecha{
+    border: none;
+    background-color: #f2f2f2;
+    font-size: 13px;
+    
+}
+.barraMedia button{
+    background-color: #f2f2f2;
+    border: none;
+}
+.reserva{
+    width: 207.75px;
+    height: 60px;
+    font-size: 13px;
+    margin: auto;
+    margin-top: 15px;
+}
+.Tarifa{
+    font-family: "Open Sans";
+    color: white;
+    background-color: #ffa400;
+    height: 60px;
+    width: 105%;
+    border: 0;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+}
+.single-quantity input{
+    width: 20px;
+    border: none;
+}
+.single-quantity .dec .ind{
+    border: black;
+    border-radius: 3px;
+    
+}
+
+#main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+	
+	width: 100%;
+	left: 0;
+	top: 0; 
+	position: fixed; 
+}
+
+body{
+    margin: 0%;
+    background-color: white;
+}
+
+
+/*descripcion*/
+
+.descripcion {
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    display: flex;
+    
+
+}
+.card-descripcion{
+background-color: #fafafa;
+padding: 15px;
+border-radius: 10px;
+box-shadow: 0px 0px 3px grey;
+margin: 20px;
+width: 44%;
+}
+
+.card-body{
+    color: black; 
+}
+
+.card-title{
+    font-family: "Playfair Display";
+    line-height: 1.5;
+    max-width: 26em;
+    letter-spacing: -1px;
+    
+}
+
+.card-text{
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.foto{
+    float: right;  
+    top: 50%;
+    left: 50%;   
+}
+
+
+/* tarjetas*/
+.card .habitacion {
+    background-image: url('../image/banner-habitaciones.jpg');
+    width: 60vh;
+   
+}
+.card .mesa {
+    background-image: url('../image/banner-restaurante.jpg');
+    width: 50vh;
+    
+}
+.card .salon {
+    background-image: url('../image/banner-eventos.jpg');
+    width: 50vh;
+   
+}
+.card .buffet {
+    background-image: url('../image/banner-promociones.jpg');
+width: 60vh;
+
+    
+}
+.card a{
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    text-decoration: none;
+
+}
+.card .buffet:hover{
+    height: 25rem;
+    background-blend-mode: normal;
+    background: linear-gradient(rgba(255,255,255, .1), rgb(214, 90, 204)), url('../image/banner-promociones.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: 0.65s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  .card .habitacion:hover{
+    height: 25rem;
+    background-blend-mode: normal;
+    background: linear-gradient(rgba(255,255,255, .1), rgb(214, 90, 204)), url('../image/banner-habitaciones.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+  }
+  .card .mesa:hover{
+    height: 25rem;
+    background-blend-mode: normal;
+    background: linear-gradient(rgba(255,255,255, .1), rgb(214, 90, 204)), url('../image/banner-restaurante.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+  }
+  .card .salon:hover{
+    height: 25rem;
+    background-blend-mode: normal;
+    background: linear-gradient(rgba(255,255,255, .1), rgb(214, 90, 204)), url('../image/banner-eventos.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+  }
+
+h1{
+    font-size: 48px;
+    color: white;
+    margin-left: 40px;
+}
+h2{
+    font-size: 13px;
+    color: white;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.tarjeta {
+    display:flex;
+    cursor: pointer;
+
+}
+/*tarjetas fin */
+
+/*divisor promo*/
+.divisor-text{
+    text-align: center;
+    color: #ffa400;
+    font-family: "Open-sans";
+    letter-spacing: 3px;
+    font-size: 11px;
+}
+
+.divisor{
+    text-align: center;
+    color: #ffa400;
+}
+
+/*vouchers*/
+.vouchers{
+    
+    justify-content: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    color: black;
+    
+}
+.titulo{
+    text-align: center;
+    justify-content: center;
+}
+.card{
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;  
+}
+.card:hover{
+    -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.card-group{
+    border: 15px;
+    box-shadow: cadetblue;
+}
+.card-text{
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.card-title{
+    font-family: "Open Sans";
+    font-size: 25px;
+    color: black;
+}
+
+.card-text{
+    font-family: "Open Sans , sans-serif";
+    font-size: 14px;
+    color: black;
+}
+.card-img-top{
+height: 200px;
+background-size: cover;
+background-position: center;
+
+}
+.text-ver{
+align-items: right;
+justify-content: right;
+}
+
+.btn-whatsapp {
+    display:block;
+    width:20px;
+    height:20px;
+    color: #fff;
+    position: fixed;
+    right:150px;
+    bottom:150px;
+    border-radius:50%;
+    line-height:70px;
+    text-align:center;
+    z-index:999;
+}
+/* kensho */
+.imagenCarrusel {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    height: 27rem;
+
+}
+.carousel-inner p{
+    justify-content: none;
+    align-self: none;
+}
+.btn-kensho{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/* kensho */
+
+/*huespedes opinan*/
+.ftco-intro {
+    padding: 8em 0;
+    width: 100%;
+    height: 585px;
+    position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    position: relative;
+    color: rgba(255, 255, 255, 0.8); }
+    @media (max-width: 1199.98px) {
+      .ftco-intro {
+        background-position: center center !important; } }
+    .ftco-intro h2 {
+      color: #fff;
+      font-size: 36px;
+      font-weight: 600; }
+    .ftco-intro .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      content: '';
+      opacity: .2;
+      background: #000000; }
+
+      /*nuestroshuespedes*/
+      .huespedes{
+          align-items: center;
+          justify-content: center;
+
+      }
+
+      /*footer*/
+      footer{
+          background-color: #222;
+          font-family: "Open Sans";  
+          width: 100%;  
+     }
+
+     .data h7{
+        color: white;
+        font-size: 26px;
+     }
+     .data p{
+         color: white;
+         font-size: 13px;
+     }
+     
+     .mdi-facebook{
+         content: "\f020c";
+     }
+     .botones a{
+         text-decoration: none;
+         color: #ffa400;
+         font-size: 12px;
+         transition: .3s ease all;
+     }
+     .botones a:hover{
+         color: #ffa600d0;
+     }
+     .submit-newsletter{
+         color: white;
+         justify-content: right;
+     }
+     .input-group{
+         display: flex;
+     }
+     .btn-submit{
+         border-color: white bold;
+         background-color: transparent;
+         font-size: 13px;
+         color: white;
+     }
+         
+     .linea{
+         background-color: white;
+     }
+
+     .icons{
+         align-items: center;
+         justify-content: center;
+         position: relative;
+         margin: auto;
+     }
